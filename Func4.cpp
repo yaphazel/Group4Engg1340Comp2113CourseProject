@@ -70,7 +70,7 @@ void escOutcomeFunc(int choice, string answer){
                    cout << "Through the black doorway, you see the entrance.\n";
                    cout << "Through the yellow doorway in front of you, you see the garage.\n";
                    cout << "Through the blue doorway on your right, you catch a glimpse of a yellow spoon.\n";
-                   cout << "What do you do? [1] Go through the entrance ---- [2] Go to the garage ---- [3] Go the kitchen\n" <<endl;
+                   cout << "What do you do? [1] Go through the entrance ---- [2] Go to the garage ---- [3] Go to the kitchen\n" <<endl;
                    cin >> choice_again;
                }
                 else if (choice==2){
