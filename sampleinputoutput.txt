@@ -1,0 +1,120 @@
+h3566606@academy21:~/Desktop/2113project$ make game
+g++ -pedantic-errors -std=c++11 -c fileManage.cpp 
+g++ -pedantic-errors -std=c++11 -c killerGame.cpp
+g++ -pedantic-errors -std=c++11 -c combGame.cpp
+g++ -pedantic-errors -std=c++11 -c FuncInter.cpp 
+g++ -pedantic-errors -std=c++11 -c Func4.cpp
+g++ -pedantic-errors -std=c++11 -c Func1-2.cpp
+g++ -pedantic-errors -std=c++11 -c Func3.cpp
+g++ -pedantic-errors -std=c++11 -c main.cpp
+g++ -pedantic-errors -std=c++11 fileManage.o killerGame.o combGame.o FuncInter.o Func4.o Func1-2.o Func3.o main.o -o game
+h3566606@academy21:~/Desktop/2113project$ ./game
+Awaken ☽
+ 1 - Start Game.
+ 2 - Continue Story.
+ 3 - Help.
+ 4 - Exit Game.
+
+ Enter your choice and press return: 1
+GAME START
+
+You wake up from the sound of water droplets hitting the concrete ground.
+The room is shrouded in darkness, only slightly illuminated by the light seeping through a door at the top of the stairs.
+What do you do? [1] Open the door ---- [2] Look Around ---- [3] Quit Game
+2
+
+KEY ACQUIRED
+You found a blue key with a fork keychain attached to it.
+
+Beside the key, you see a dusty old box, there is a combination lock on it!
+It seems that the combination passcode is a four digit number from 0 to 9999. 
+Try to guess the passcode, you have 15 attempts.
+The range will narrow as you guess.
+You have 15 tries left!.
+Type a number between 0 and 9999.
+5000
+You have 14 tries left!.
+Type a number between 0 and 5000.
+3000 
+You have 13 tries left!.
+Type a number between 3000 and 5000.
+4000
+You have 12 tries left!.
+Type a number between 4000 and 5000.
+4500
+You have 11 tries left!.
+Type a number between 4000 and 4500.
+4250
+You have 10 tries left!.
+Type a number between 4000 and 4250.
+4125
+You have 9 tries left!.
+Type a number between 4125 and 4250.
+4200
+You have 8 tries left!.
+Type a number between 4125 and 4200.
+
+4160
+You have 7 tries left!.
+Type a number between 4160 and 4200.
+4180
+You have 6 tries left!.
+Type a number between 4180 and 4200.
+4190
+You have 5 tries left!.
+Type a number between 4190 and 4200.
+4195
+You have 4 tries left!.
+Type a number between 4195 and 4200.
+4198
+You have 3 tries left!.
+Type a number between 4195 and 4198.
+4197
+You have 2 tries left!.
+Type a number between 4195 and 4197.
+4196
+Great! You managed to unlock the combination lock after 14 tries!.
+AXE ACQUIRED
+In the box, you see an axe on top of a shirt. The shirt is stained with blood, a large red patch on the left sleeve.
+As you pick up the axe, you hear strong and loud footsteps outside the door.
+
+What do you do next?
+ [1] Open the door ---- [2] Hide under the stairs ---- [3] Quit Game
+2
+You hear the killer opening the door, his heavy footsteps walking down the stairs. You need a place to quickly hide and see a cupboard.
+Without any hesitation, you jump in and hide.
+HEALTH BAR UNLOCKED 
+Killer : ♥♥♥ You : ♥♥♥
+Through the narrow slit of the old cupboard door, you see the killer walk around searching for you, knife in hand. As he turns his back to you, you try to think what to do next.
+What do you do? [1] Attack ---- [2] Try to run past him ---- [3] Quit Game 
+1
+You decide to try to attack, but he hears you and quickly turns around, dodging your attack. Without time to spare, you lash out again.
+What do you do? [1] Punch him in the shoulder. ---- [2] Kick him in leg 
+1
+You hit his injured shoulder.
+KILLER WEAKENED
+Killer : ♥♥ You : ♥♥♥
+What do you do? [1] Stab ---- [2] Slash
+2
+You manage to hurt the man.
+Killer : ♥ You : ♥♥♥
+What do you do? [1] Stab ---- [2] Slash
+1
+You manage to hurt the man.
+Killer : ☓ You : ♥♥♥
+THE MAN IS DEAD.
+
+Slowly, you make you way towards the man's body. You circle it like vulture, afraid to approach.
+Gathering a bit of courage, you kick the still body of the man.
+As you continue to kick at it and it remains lifeless, you gently breathe in through your nose to calm yourself. You begin to look for a way to escape.Through the black doorway on your left, you catch a glimpse of a blue sock.
+Through the yellow doorway in front of you, you catch a glimpse of the hood of a black car.
+Through the blue doorway on your right, you catch a glimpse of a yellow spoon.
+What do you do? [1] Go left ---- [2] Go straight ---- [3] Go right
+3
+You run through the room heading straight for the first door you see.
+You try opening the door but it's locked shut. Luckily, you remember you have a key.
+You try to unlock the door with key. To your delight, it opens. You run out to your safety.
+Congratulations! You are alive and have escaped.
+
+GAME END
+
